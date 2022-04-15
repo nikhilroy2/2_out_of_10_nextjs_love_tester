@@ -1,16 +1,43 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+#LoveTester{
+  padding: 35px;
+  font-size: 20px;
+  color: white;
+  width: 600px;
+  text-align: center;
 }
+label, input{
+  display: block;
+  text-align: left;
+}
+label{
+  margin-bottom: 4px;
+}
+input{
+  padding: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
 
-* {
-  box-sizing: border-box;
+}
+.input_group{
+  margin-bottom: 10px;
+}
+button{
+  background: #000;
+  color: white;
+  padding: 6px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
